@@ -82,14 +82,23 @@ body{
     color:#95F6A5;
 }
 
+.InicioContenedor{
+    text-align: center;
+    font-size: 24px;
+}
+.Inicio1{
+    font-size: 3em;
+    color: #FAD3F4 ;
+}
+
 /*Main*/
-.ul{
+.Cuerpo{
     width: 940px;
     margin: 0 auto;
     padding: 50px;
     list-style: none;
 }
-.Mercancias{
+.Contenido{
     display: inline-block;
     border: 2px solid #D3FAD9;
     text-align: center;
@@ -99,10 +108,32 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     vertical-align: top;
-    list-style: none;
 }
-.Mercancias:hover{
+
+.Contenido:hover{
     border-color: #FAD3F4;
+}
+.ImagenesPortadas{
+    width: 242px;
+    height: 308px;
+}
+
+.ImagenesPortadas:hover{
+    width: 246px;
+    height: 312px;
+}
+
+.Enunciado{
+    font-size: 26px;
+}
+.Enunciado:hover{
+    font-size: 30px;
+}
+.DescripcionPortada{
+    font-size: 16px;
+}
+.Precio{
+    font-size: 26px;
 }
 
 

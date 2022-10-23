@@ -11,8 +11,7 @@ body{
     min-height: 600px;
     max-height: 800px;
     position: relative;
-    display: grid;
-    grid-template-rows: 100px 1fr;
+    display: contents;
     
    
 
@@ -84,6 +83,7 @@ body{
 /*CONTENEDOR*/
 .InicioContenedor{
     text-align: center;
+    font-size: 24px;
 }
 .Inicio1{
     font-size: 3em;
@@ -95,10 +95,10 @@ body{
 }
 
 /*Main*/
-.ul{
+.Prod{
     width: 940px;
-    margin: 0 auto;
     padding: 50px;
+    display: flex;
     list-style: none;
 }
 .Mercancias{
@@ -111,11 +111,21 @@ body{
     border-radius: 10px;
     box-sizing: border-box;
     vertical-align: top;
-    list-style: none;
+
+}
+.Mercancias a{
+    padding: 9px;
+    color: rgb(7, 2, 9);
+    display: grid;
+}
+.Mercancias a:hover{
+    background-color:#FAD3F4;
+    color:white;
 }
 .Mercancias:hover{
     border-color: #FAD3F4;
 }
+
 
 .ImagenesPortadas{
     width: 242px;
